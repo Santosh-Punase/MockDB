@@ -1,104 +1,65 @@
-{
-  "layout": [
-    {
-      "id": 1,
-      "label": "First Name",
-      "name":"f_name",
+[
+  {
+    "id": 1,
+    "label": "First Name",
+    "element": "input",
+    "attributes": {
       "type": "text",
+      "name": "First Name",
       "required": true,
-      "placeholder":"First Name"
-    },
-    {
-      "id": 2,
-      "label": "Middle Name",
-      "name":"m_name",
-      "type": "text",
-      "required": false,
-      "placeholder":"Middle Name"
-    },
-    {
-      "id": 3,
-      "label": "Last Name",
-      "name":"l_name",
-      "type": "text",
-      "required": false,
-      "placeholder":"Last Name"
-    },
-    {
-      "id": 4,
-      "label": "Email",
-      "type": "email",
-      "name":"email",
-      "required": false,
-      "placeholder":"Email"
-    },
-    {
-      "id": 5,
-      "label": "Address",
-      "name":"address",
-      "type": "textbox",
-      "required": true,
-      "placeholder":"Address"
-    },
-    {
-      "id": 6,
-      "label": "Gender",
-      "type": "radio",
-      "name":"gender",
-      "required": true,
-      "options" : [
-        {
-        "name":"male",
-        "value":"male",
-        "text":"Male"
-        },
-        {
-          "name":"female",
-          "value":"female",
-          "text":"Female"
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "label": "Languages",
-      "type": "checkbox",
-      "required": false,
-      "options" : [
-        {
-        "name":"Lang1",
-        "value":"English",
-        "text":"English"
-        },
-        {
-          "name":"Lang2",
-          "value":"Hindi",
-          "text":"Hindi"
-        }
-      ]
-    },
-    {
-      "id": 8,
-      "label": "Nearest Airport",
-      "type": "select",
-      "name":"airport",
-      "options" : [
-        {
-        "name":"delhi",
-        "value":"delhi",
-        "text":"Delhi"
-        },
-        {
-          "name":"pune",
-          "value":"pune",
-          "text":"Pune"
-        },
-        {
-          "name":"mumbai",
-          "value":"mumbai",
-          "text":"Mumbai"
-        }
-      ]
+      "placeholder": "First Name"
     }
-  ]
-}
+  },
+  {
+    "id": 2,
+    "label": "Last Name",
+    "element": "input",
+    "attributes": {
+      "name": "Last Name",
+      "type": "text",
+      "required": false,
+      "placeholder": "Last Name"
+    }
+  },
+  {
+    "id": 3,
+    "label": "Email",
+    "element": "input",
+    "attributes": {
+      "type": "email",
+      "name": "Email",
+      "required": false,
+      "placeholder": "Email"
+    }
+  },
+  {
+    "id": 4,
+    "label": "Address",
+    "element": "textarea",
+    "attributes": {
+      "name": "Address",
+      "row": "3"
+    }
+  },
+  {
+    "id": 5,
+    "element": "input",
+    "label": "vehicle",
+    "attributes": {
+      "type": "checkbox",
+      "checkfor": "vehicle",
+      "name": "Bike",
+      "value": "Bike"
+    }
+  },
+  {
+    "id": 6,
+    "element": "input",
+    "attributes": {
+      "type": "checkbox",
+      "checkfor" :"vehicle",
+      "name": "Car",
+      "value": "Car"
+    }
+  }
+]
