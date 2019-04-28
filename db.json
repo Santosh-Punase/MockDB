@@ -1,65 +1,151 @@
 [
-  {
-    "id": 1,
-    "label": "First Name",
-    "element": "input",
-    "attributes": {
-      "type": "text",
-      "name": "First Name",
-      "required": true,
-      "placeholder": "First Name"
+    {
+      "id": 1,
+      "label": "First Name",
+      "element": "input",
+      "attributes": {
+        "type": "text",
+        "name": "f_name",
+        "required": true,
+        "placeholder": "First Name"
+      }
+    },
+    {
+      "id": 2,
+      "label": "Middle Name",
+      "element": "input",
+      "attributes": {
+        "type": "text",
+        "name": "m_name",
+        "required": false,
+        "placeholder": "Middle Name"
+      }
+    },
+    {
+      "id": 3,
+      "label": "Last Name",
+      "element": "input",
+      "attributes": {
+        "name": "l_name",
+        "type": "text",
+        "required": false,
+        "placeholder": "Last Name"
+      }
+    },
+    {
+      "id": 4,
+      "label": "Email",
+      "element": "input",
+      "attributes": {
+        "type": "email",
+        "name": "email",
+        "required": false,
+        "placeholder": "Email"
+      }
+    },
+    {
+      "id": 5,
+      "label": "Address",
+      "element": "input",
+      "attributes": {
+        "name": "address",
+        "type": "textbox",
+        "required": true,
+        "placeholder": "Address"
+      }
+    },
+    {
+      "id": 6,
+      "label": "Gender",
+      "element": "input",
+      "attributes": {
+        "type": "radio",
+        "name": "gender",
+        "required": true,
+        "value": "male"
+      }
+    },
+    {
+      "id": 7,
+      "element": "input",
+      "attributes": {
+        "type": "radio",
+        "name": "gender",
+        "required": true,
+        "value": "female"
+      }
     }
-  },
-  {
-    "id": 2,
-    "label": "Last Name",
-    "element": "input",
-    "attributes": {
-      "name": "Last Name",
-      "type": "text",
-      "required": false,
-      "placeholder": "Last Name"
+  ]
+
+  [
+    {
+      "id": 1,
+      "label": "First Name",
+      "element": "input",
+      "attributes": {
+        "type": "text",
+        "name": "First Name",
+        "required": true,
+        "placeholder": "First Name"
+      }
+    },
+    {
+      "id": 2,
+      "label": "Last Name",
+      "element": "input",
+      "attributes": {
+        "name": "Last Name",
+        "type": "text",
+        "required": false,
+        "placeholder": "Last Name"
+      }
+    },
+    {
+      "id": 3,
+      "label": "Email",
+      "element": "input",
+      "attributes": {
+        "type": "email",
+        "name": "Email",
+        "required": false,
+        "placeholder": "Email"
+      }
+    },
+    {
+      "id": 4,
+      "label": "Address",
+      "element": "textarea",
+      "attributes": {
+        "name": "Address",
+        "row": "3"
+      }
+    },
+    {
+      "id": 5,
+      "element": "input",
+      "label": "Vehicle",
+      "attributes": {
+        "type": "checkbox",
+        "checklabel": "Vehicle",
+        "name": ["Bike","Car"],
+        "value": ["Bike","Car"]
+      }
+    },
+    {
+      "id": 6,
+      "element": "input",
+      "label":"Gender",
+      "attributes": {
+        "type": "radio",
+        "radiolabel" :"vehicle",
+        "name": "Gender",
+        "value": ["Male","Female"]
+      }
+    },
+    {
+      "id": 7,
+      "element": "select",
+      "label":"City",
+      "options": ["Choose...","Mumbai","Pune","Delhi","Banglore"]
     }
-  },
-  {
-    "id": 3,
-    "label": "Email",
-    "element": "input",
-    "attributes": {
-      "type": "email",
-      "name": "Email",
-      "required": false,
-      "placeholder": "Email"
-    }
-  },
-  {
-    "id": 4,
-    "label": "Address",
-    "element": "textarea",
-    "attributes": {
-      "name": "Address",
-      "row": "3"
-    }
-  },
-  {
-    "id": 5,
-    "element": "input",
-    "label": "vehicle",
-    "attributes": {
-      "type": "checkbox",
-      "checkfor": "vehicle",
-      "name": "Bike",
-      "value": "Bike"
-    }
-  },
-  {
-    "id": 6,
-    "element": "input",
-    "attributes": {
-      "type": "checkbox",
-      "checkfor" :"vehicle",
-      "name": "Car",
-      "value": "Car"
-    }
-  }
-]
+  ]
